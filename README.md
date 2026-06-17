@@ -66,13 +66,13 @@ Valores de referencia (son los valores por defecto en `compare_results.py`; se r
 
 ### Detección sobre imagen estática
 
-![Comparación YOLOv8 vs Faster R-CNN sobre imagen estática](assets/figura1_deteccion_imagen.jpg)
+![Comparación YOLOv8 vs Faster R-CNN sobre imagen estática](assets/figura1_deteccion_imagen.jpeg)
 
 *Faster R-CNN asignó mayor confianza a los objetos (manzana: 1.00, plátano: 0.99) frente a YOLOv8 (0.94 y 0.88), mostrando mayor precisión de detección a costa de más tiempo de cómputo.*
 
 ### Detección sobre video en tiempo real
 
-![Comparación YOLOv8 vs Faster R-CNN sobre video en tiempo real](assets/figura2_deteccion_video.jpg)
+![Comparación YOLOv8 vs Faster R-CNN sobre video en tiempo real](assets/figura2_deteccion_video.jpeg)
 
 *YOLOv8 detectó a la persona en 104 ms (9.6 FPS); Faster R-CNN, con 296 ms (3.4 FPS), identificó además un objeto adicional ("dining table"), a costa de mayor latencia.*
 
