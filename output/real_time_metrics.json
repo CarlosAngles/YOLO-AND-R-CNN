@@ -1,0 +1,10 @@
+{
+    "YOLO": {
+        "latency_ms": 148.26,
+        "fps": 6.75
+    },
+    "RCNN": {
+        "latency_ms": 294.79,
+        "fps": 3.39
+    }
+}
