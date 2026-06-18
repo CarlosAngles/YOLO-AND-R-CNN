@@ -68,7 +68,7 @@ Valores de referencia (son los valores por defecto en `compare_results.py`; se r
 
 ![Comparación YOLOv8 vs Faster R-CNN sobre imagen estática](assets/figura1_deteccion_imagen.jpeg)
 
-*Faster R-CNN asignó mayor confianza a los objetos (manzana: 1.00, plátano: 0.99) frente a YOLOv8 (0.94 y 0.88), mostrando mayor precisión de detección a costa de más tiempo de cómputo.*
+*Faster R-CNN mostró mayor ajuste a los contornos de los objetos y mayor confianza (manzana: 1.00, plátano: 0.99) frente a YOLOv8 (0.94 y 0.88). En esta prueba puntual, Faster R-CNN fue más rápido (397.7 ms) que YOLOv8 (531.3 ms) — resultado opuesto a la tendencia global del experimento, atribuible a la variabilidad propia de pruebas individuales sobre CPU.*
 
 ### Detección sobre video en tiempo real
 
